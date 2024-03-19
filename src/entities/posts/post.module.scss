@@ -1,0 +1,39 @@
+.container {
+  height: 150px;
+  width: 800px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(226, 226, 227);
+  margin: 20px auto;
+
+  .post_id {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .post_title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .post_text {
+    font-size: 20px;
+  }
+
+  .post_link_div {
+    text-align: end;
+    margin-top: 15px;
+
+    .post_link {
+      text-decoration: none;
+      font-size: 20px;
+      color: red;
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 3px 10px;
+
+    }
+  }
+
+}
